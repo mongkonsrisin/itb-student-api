@@ -7,7 +7,7 @@ class Faculty extends CI_Controller {
 		    $this->load->view('welcome_faculty');
     }
 
-    public function list() {
+    public function all() {
         $result = $this->Fac->list_faculties();
         foreach ($result as $r) {
             $d['code'] = (int)$r->fac_id;
