@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>FACULTY</h1>
 	<div id="body">
 		<p>Getting faculty list</p>
-		<code><a href="<?php echo base_url(); ?>faculty/list" target="_blank"><?php echo base_url(); ?>faculty/list</a></code>
+		<code><a href="<?php echo base_url(); ?>faculty/all" target="_blank"><?php echo base_url(); ?>faculty/all</a></code>
 	</div>
 	<p class="footer">Made with <i class="fa fa-heart"></i> by Mongkon Srisin</p>
 </div>
